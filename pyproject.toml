@@ -16,3 +16,7 @@ glissando = "glissando.cli:main"
 
 [tool.setuptools.package-data]
 "glissando" = ["styles.css"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
