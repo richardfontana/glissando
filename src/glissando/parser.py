@@ -1,5 +1,5 @@
 # Copyright The glissando Authors
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: Unlicense
 
 import markdown
 
