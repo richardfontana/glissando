@@ -1,6 +1,6 @@
 <!--
-Copyright The glissando Authors
-SPDX-License-Identifier: CC0-1.0 
+Copyright Not Copyrightable
+SPDX-License-Identifier: LicenseRef-Not-Copyrightable 
 -->
 
 # glissando

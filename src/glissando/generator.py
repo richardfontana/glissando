@@ -1,5 +1,5 @@
 # Copyright The glissando Authors
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: Unlicense
 
 def generate_html(slides: list[str]) -> str:
     slide_html = ''.join(
