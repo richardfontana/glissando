@@ -1,0 +1,18 @@
+# Copyright Not Copyrightable
+# SPDX-License-Identifier: LicenseRef-Not-Copyrightable
+
+[project]
+name = "glissando"
+version = "0.1.0"
+description = "Convert a markdown file to an HTML slide presentation"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "markdown>=3.5",
+]
+
+[project.scripts]
+glissando = "glissando.cli:main"
+
+[tool.setuptools.package-data]
+"glissando" = ["styles.css"]
