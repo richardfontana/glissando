@@ -15,7 +15,7 @@ dependencies = [
 glissando = "glissando.cli:main"
 
 [tool.setuptools.package-data]
-"glissando" = ["styles.css"]
+"glissando" = ["styles.css","slides.js"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
