@@ -20,7 +20,10 @@ def main():
         css_source = files('glissando') / 'styles.css'
         shutil.copy(css_source, 'styles.css')
         print("Copied styles.css to current directory")
-
+    if not os.path.exists('slides.js'):
+        js_source = files('glissando') / 'slides.js'
+        shutil.copy(js_source, 'slides.js')
+        print("Copied slides.js to current directory")
     try:
         with open(md_file, 'r', encoding='utf-8') as f:
             md_text = f.read()
